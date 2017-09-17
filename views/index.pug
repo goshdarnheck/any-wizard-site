@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  main(class='content')
+    h1 Welcome!
+    p  Any Wizard is a bot that generates wizard names and images randomly and post them on Twitter. Check out #[a(href='https://twitter.com/anywizard') #{title}] on Twitter.
+    p Here are some examples:
+      ul
+        li
+          a(href='https://twitter.com/anywizard/status/904796227811909632' target='_blank')
+            h3 Ancient construction wizard
+            img(src='images/DI57XpoXgAAuQJ3.png')
+        li
+          a(href='https://twitter.com/anywizard/status/901474333054423040' target='_blank')
+            h3 Friendly courage illusionist
+            img(src='images/DIKuIMhXoAAesC8.png')
+        li
+          a(href='https://twitter.com/anywizard/status/898877220222976000' target='_blank')
+            h3 Decisive dirt shape shifter
+            img(src='images/DHl0EVCVoAAoGtw.png')
+    h2 Help Out!
+    p Help us make more wacky wizards and draw a wizard template! We may add it to the bot! Send a tweet to #[a(href='https://twitter.com/anywizard') #{title}]
+    h2 More Info
+    p #[a(href='http://hamburgersandwich.com') Matthew Rapati]
+  aside(class='sidebar')
+    h2 Latest Wizards
+    p [twitter feed here]
+  
