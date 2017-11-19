@@ -2,10 +2,10 @@ extends layout
 
 block content
   main(class='content')
-    h1 Welcome!
-    p  Any Wizard is a bot that generates wizard names and images randomly and post them on Twitter. Check out #[a(href='https://twitter.com/anywizard') #{title}] on Twitter.
-    p Here are some examples:
-      ul
+    h1 Introduction
+    p #[a(href='https://twitter.com/anywizard') #{title}] is a bot that generates wizard names and images randomly and post them on Twitter.
+    h2 Here are some examples:
+      ul(class='examples')
         li
           a(href='https://twitter.com/anywizard/status/904796227811909632' target='_blank')
             h3 Ancient construction wizard
@@ -19,9 +19,34 @@ block content
             h3 Decisive dirt shape shifter
             img(src='images/DHl0EVCVoAAoGtw.png')
     h2 Help Out!
-    p Help us make more wacky wizards and draw a wizard template! We may add it to the bot! Send a tweet to #[a(href='https://twitter.com/anywizard') #{title}]
-    h2 More Info
-    p #[a(href='http://hamburgersandwich.com') Matthew Rapati]
+    p Help us make more wacky wizards and draw a wizard template! We may add it to the bot! Send a tweet to #[a(href='https://twitter.com/anywizard') #{title}]. Here's how you can get started: Create a PNG with the dimensions of 440px by 220px. The following colours will be replaced randomly by the bot:
+    h3 Colours that will be replaced
+    ul
+      li Red #ff0000
+      li Green #00ff00
+      li Blue #0000ff
+      li #cc0000
+      li #00cc00
+      li #0000cc
+      li #660000
+      li #006600
+      li #000066
+      li #ffff00
+      li #00ffff
+      li #ff00ff
+      li #ff9900
+      li #00ff99
+      li #9900ff
+    p All other colours will stay the same. Note: sometimes a colour will be replaced by an image instead of another colour.
+    h2 Why?
+    p For fun!
+    h2 How?
+    p Any Wizard is written in Python.
+    h2 Credits
+    p Creator/developer/wizard-artist: #[a(href='http://hamburgersandwich.com') Matthew Rapati]
+    p Additional templates created by:
+    ul
+    li #[a(href='http://www.portablecity.net/') Rachel Kahn]
   aside(class='sidebar')
     h2 Latest Wizards
     p [twitter feed here]
